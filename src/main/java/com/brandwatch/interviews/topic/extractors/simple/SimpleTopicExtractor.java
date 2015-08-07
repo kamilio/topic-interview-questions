@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class SimpleTopicExtractor implements TopicExtractor {
-    @Override
     public TopicResults extract(String inputText) {
         TopicResults results = new TopicResults();
         String[] words = inputText.split(" ");

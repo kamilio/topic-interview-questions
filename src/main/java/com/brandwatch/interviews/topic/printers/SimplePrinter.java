@@ -10,7 +10,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class SimplePrinter implements TopicResultsPrinter {
 
-    @Override
     public void print(TopicResults results) {
         ImmutableMultiset<Topic> resultBreakdown = results.getTopics();
         for (Topic topic : Iterables.limit(Multisets.copyHighestCountFirst(resultBreakdown).elementSet(), 10)) {
