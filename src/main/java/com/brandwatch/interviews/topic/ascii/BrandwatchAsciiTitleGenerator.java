@@ -4,7 +4,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class BrandwatchAsciiTitleGenerator implements AsciiTitleGenerator {
-    @Override
     public String buildTitle() {
         StringBuilder builder = new StringBuilder();
         builder.append(" _______  ______    _______  __    _  ______   _     _  _______  _______  _______  __   __ \n");

@@ -18,7 +18,6 @@ public class DemoImpl implements Demo {
     @Autowired
     private TopicResultsPrinter printer;
 
-    @Override
     public void runDemo(TopicDemoConfig config) {
         try {
             String inputText = provider.readText(config.file);
