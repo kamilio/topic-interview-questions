@@ -23,6 +23,6 @@ When our engineers receive this, we'll be looking at the following things:
 * The choice of technologies used to complete the task
 * The documentation provided 
 
-Typically we expect it to compile and run on a Linux environment with Java 7. If your set up is any different, do let us know!
+Typically we expect it to compile and run on a Linux environment with Java 8. If your set up is any different, do let us know!
 
 Good luck, and may the topics be with you.
